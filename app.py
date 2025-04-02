@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly_express as px
 
-car_data = pd.read_csv(r"C:\Users\samue\OneDrive\Escritorio\Data Analyst Bootcamp (TripleTen)\Sprint 7 (2)\final-project-sprint7\vehicles_us.csv")
+car_data = pd.read_csv("vehicles_us.csv")
 
 st.header('Análisis de datos de vehículos')
 
